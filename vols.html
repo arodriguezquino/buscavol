@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buscador de Vuelos</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <a style="color:white;" href="index.html"><i style="float:left;" class="fas fa-home"></i></a>
+    <h1>Buscador de Vuelos</h1>
+  </header>
+  
+	<div class="contact-form" id="contact-form">
+		<h1>CONTACTAR</h1>
+		<form action="#" method="POST">
+			<label for="name">Nombre:</label></br>
+			<input type="text" id="name" name="name" required></br>
+
+			<label for="email">Correo electrónico:</label></br>
+			<input type="email" id="email" name="email" required></br>
+
+			<label for="message">Mensaje:</label></br>
+			<textarea id="message" name="message" rows="5" required></textarea></br>
+
+			<button type="submit">Enviar</button>
+		</form>
+		<button id="closeFormBtn" style="float:right;">Tancar</button>
+	</div>
+	<div class="oscuro" id="oscuro">
+	
+	</div>
+	<div class="main">
+  <div class="container">
+    
+    <ul class="search-results">
+      <li>
+        <div class="flight-info">
+          <h2>Aerolínea A - Vuelo 1</h2>
+          <div class="origin-destination">
+            <p>Origen: Ciudad A</p>
+            <p>Destino: Ciudad B<button id="addStay" class="add-stay-btn"><i class="fas fa-bed"></i></button></p>
+		
+          </div>
+          <p>Fecha: 2023-06-01</p>
+        </div>
+Co2
+        <div class="co2-indicator">
+          <div class="co2-fill"></div>
+        </div>
+        <div class="rating">
+          <span class="airline">Aerolínea A</span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star-half-alt"></i></span>
+        </div>
+        <div class="button-container">
+          <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+          <button class="price-alert-btn"><i class="fas fa-bell"></i></button>
+        </div>
+      </li>
+      <li>
+        <div class="flight-info">
+          <h2>Aerolínea B - Vuelo 2</h2>
+          <div class="origin-destination">
+            <p>Origen: Ciudad C</p>
+            <p>Destino: Ciudad D<button id="addStay" class="add-stay-btn"><i class="fas fa-bed"></i></button></p>
+          </div>
+          <p>Fecha: 2023-06-02</p>
+        </div>Co2
+        <div class="co2-indicator">
+          <div class="co2-fill"></div>
+        </div>
+        <div class="rating">
+          <span class="airline">Aerolínea B</span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star-half-alt"></i></span>
+        </div>
+        <div class="button-container">
+          <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+          <button class="price-alert-btn"><i class="fas fa-bell"></i></button>
+        </div>
+      </li>
+      <li>
+        <div class="flight-info">
+          <h2>Aerolínea C - Vuelo 3</h2>
+          <div class="origin-destination">
+            <p>Origen: Ciudad E</p>
+            <p>Destino: Ciudad F<button id="addStay" class="add-stay-btn"><i class="fas fa-bed"></i></button></p>
+          </div>
+          <p>Fecha: 2023-06-03</p>
+        </div>Co2
+
+        <div class="co2-indicator">
+          <div class="co2-fill"></div>
+        </div>
+        <div class="rating">
+          <span class="airline">Aerolínea C</span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star"></i></span>
+          <span class="star"><i class="fas fa-star-half-alt"></i></span>
+          <span class="star"><i class="far fa-star"></i></span>
+        </div>        <div class="button-container">
+          <button class="favorite-btn"><i class="fas fa-heart"></i></button>
+          <button class="price-alert-btn"><i class="fas fa-bell"></i></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  <footer>
+    <div class="footerRow">
+    	<a href="faq-web.html" style="color:white;float:left;">F.A.Q</a> 
+		<button id="openFormBtn" style="float:right;">Contactar</button>
+	</div>
+    <p>Derechos de autor © 2023 Buscador de Vuelos</p>
+  </footer>
+  </div>
+</body>
+<script src="javascript.js"></script>
+</html>
